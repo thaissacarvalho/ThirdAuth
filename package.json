@@ -1,0 +1,33 @@
+{
+  "name": "thirdauth",
+  "version": "1.0.0",
+  "description": "This project is about 3 forms of autentication using Google, Github, or Microsoft.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "dev": "nodemon dist/index.js",
+    "build": "npx tsc && npm run dev"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaissacarvalho/ThirdAuth.git"
+  },
+  "author": "Thaissa Carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaissacarvalho/ThirdAuth/issues"
+  },
+  "homepage": "https://github.com/thaissacarvalho/ThirdAuth#readme"
+}
